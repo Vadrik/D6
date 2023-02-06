@@ -16,7 +16,7 @@ News
                <td>Время</td>
            </tr>
            <tr>
-               <td>{{ news.description|currency }}</td>
+               <td>{{ news.description|censor }}</td>
                <td>{{ news.date|date:'h:s d M Y' }}</td>
            </tr>
        </table>
